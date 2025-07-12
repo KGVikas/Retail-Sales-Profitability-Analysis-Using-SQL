@@ -80,3 +80,13 @@ The project uses a **star schema**:
 - Visualizations in Power BI or Tableau
 - Dashboard with KPIs and drilldowns
 - Python ETL for automation
+
+---
+
+## 📂 SQL Scripts Overview
+
+1. **01_staging.sql** – Load raw Superstore data into a staging table  
+2. **02_cleaning.sql** – Clean and prepare staging data (handle nulls, format dates, remove whitespace)  
+3. **03_create_tables.sql** – Define dimension and fact tables using star schema  
+4. **04_inserting.sql** – Populate final tables from cleaned staging data  
+5. **05_analysis.sql** – Business insight queries using joins and aggregations  
